@@ -1,0 +1,24 @@
+{
+	"name": "brunch-scab",
+	"version": "1.0.0",
+	"description": "NPM Package for Brunch 'SCAB' - skeleton with SASS, CoffeeScript, Angular and Bootstrap",
+	"homepage": "https://bitbucket.org/jakubburkiewicz/brunch-scab",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/jakubburkiewicz/brunch-scab"
+	},
+	"author": {
+		"name": "Jakub Burkiewicz",
+		"email": "jakub@burkiewicz.eu"
+	},
+	"dependencies": {
+		"javascript-brunch": "~1.7.1",
+		"coffee-script-brunch": "~1.8.0",
+		"css-brunch": "~1.7.0",
+		"sass-brunch": "~1.8.0",
+		
+		"ngmin-uglify-js-brunch": "~1.7.13",
+		"clean-css-brunch": "~1.7.1"
+	}
+}
