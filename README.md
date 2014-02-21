@@ -20,7 +20,7 @@ and some additions:
 - [Bower](http://bower.io/): `npm install -g bower`
 
 ## Getting started
-- `brunch new https://bitbucket.org/jakubburkiewicz/brunch-scab`
+- `brunch new https://bitbucket.org/jakubburkiewicz/brunch-scab` or `brunch new gh:jakubburkiewicz/brunch-scab`to clone repo
 - if packages installing not beggins run `npm install` and `bower install`
 - `brunch w -s` to start Brunch Watch and local server (on :3333) or...
 - `brunch w` to just start Brunch Watch
