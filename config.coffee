@@ -17,6 +17,15 @@ exports.config =
 		production:
 			paths:
 				public: 'release'
+			files:
+				javascripts:
+					joinTo:
+						'scripts/app.min.js': /^development[\/\\]scripts/
+						'scripts/vendor.min.js': /^(development[\/\\]vendor|bower_components)/
+				stylesheets:
+					joinTo:
+						'styles/app.min.css': /^development[\/\\]styles/
+						'styles/vendor.min.css': /^(development[\/\\]vendor|bower_components)/
 			optimize: true
 			sourceMap: false
 			plugins: 
