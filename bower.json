@@ -2,11 +2,11 @@
 	"name": "brunch-scab",
 	"version": "1.0.0",
 	"description": "Bower components for Brunch 'SCAB' - skeleton with SASS, CoffeeScript, Angular and Bootstrap",
-	"homepage": "https://bitbucket.org/jakubburkiewicz/brunch-scab",
+	"homepage": "https://github.com/jakubburkiewicz/brunch-scab",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.org/jakubburkiewicz/brunch-scab"
+		"url": "https://github.com/jakubburkiewicz/brunch-scab"
 	},
 	"authors": [
 		{
