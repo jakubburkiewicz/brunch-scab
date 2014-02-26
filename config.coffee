@@ -2,6 +2,9 @@ exports.config =
 	paths:
 		public: 'build',
 		watched: ['development', 'vendor']
+	modules:
+		definition: false
+		wrapper: false
 	files:
 		javascripts:
 			defaultExtension: 'coffee'
