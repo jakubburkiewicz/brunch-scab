@@ -9,6 +9,8 @@ Brunch skeleton with SASS, CoffeeScript, Angular and Bootstrap
 
 and some additions:
 
+- [Angular UI Router](https://github.com/angular-ui/ui-router)
+- [Angular UI Bootstrap](https://github.com/angular-ui/bootstrap-bower)
 - [jQuery](http://jquery.com/)
 - [ngMin](https://github.com/btford/ngmin)
 - [UglifyJS](https://github.com/mishoo/UglifyJS)
