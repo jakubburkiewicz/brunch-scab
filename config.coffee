@@ -20,18 +20,9 @@ exports.config =
 		production:
 			paths:
 				public: 'release'
-			files:
-				javascripts:
-					joinTo:
-						'scripts/app.min.js': /^development[\/\\]scripts/
-						'scripts/vendor.min.js': /^(development[\/\\]vendor|bower_components)/
-				stylesheets:
-					joinTo:
-						'styles/app.min.css': /^development[\/\\]styles/
-						'styles/vendor.min.css': /^(development[\/\\]vendor|bower_components)/
 			optimize: true
 			sourceMap: false
-			plugins: 
+			plugins:
 				uglify:
 					mangle: false
 					compress:
@@ -40,5 +31,5 @@ exports.config =
 				cleancss:
 					keepSpecialComments: 0
 					removeEmpty: true
-				autoReload: 
+				autoReload:
 					enabled: false
