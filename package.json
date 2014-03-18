@@ -1,7 +1,7 @@
 {
 	"name": "brunch-scab",
 	"version": "1.0.0",
-	"description": "NPM Package for Brunch 'SCAB' - skeleton with SASS, CoffeeScript, Angular and Bootstrap",
+	"description": "Brunch 'SCAB' - brunch skeleton with SASS, CoffeeScript, Angular and Bootstrap",
 	"homepage": "https://github.com/jakubburkiewicz/brunch-scab",
 	"license": "MIT",
 	"repository": {
@@ -17,7 +17,7 @@
 		"coffee-script-brunch": "~1.8.0",
 		"css-brunch": "~1.7.0",
 		"sass-brunch": "~1.8.0",
-		
+
 		"ngmin-uglify-js-brunch": "~1.7.13",
 		"clean-css-brunch": "~1.7.1"
 	}
