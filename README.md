@@ -1,7 +1,7 @@
 # "SCAB"
-Brunch skeleton with SASS, CoffeeScript, Angular and Bootstrap
+Brunch skeleton with SASS, CoffeeScript, Angular and Bootstrap.
 
-## What we have here?
+## What do we have here?
 - [SASS](http://sass-lang.com/)
 - [CoffeeScript](http://coffeescript.org/)
 - [Angular](http://angularjs.org/)
@@ -16,47 +16,47 @@ and some additions:
 - [UglifyJS](https://github.com/mishoo/UglifyJS)
 - [clean-css](https://github.com/GoalSmashers/clean-css)
 
-## What you need before you start
-- [Node.js](http://nodejs.org/): `brew install node` on OS X
+## What you need before you start:
+- [Node.js](http://nodejs.org/): `brew install node` on OS X with Homebrew
 - [Brunch](http://brunch.io/): `npm install -g brunch`
 - [Bower](http://bower.io/): `npm install -g bower`
 
 ## Getting started
-- `brunch new https://bitbucket.org/jakubburkiewicz/brunch-scab` or `brunch new gh:jakubburkiewicz/brunch-scab`to clone repo
-- if packages installing not beggins run `npm install` and `bower install`
+- `brunch new https://bitbucket.org/jakubburkiewicz/brunch-scab` or `brunch new gh:jakubburkiewicz/brunch-scab`to clone the repo.
+- If packages are not installing automatically, run `npm install` and `bower install`
 - `brunch w -s` to start Brunch Watch and local server (on :3333) or...
 - `brunch w` to just start Brunch Watch
-- `brunch build -P` when you done your work and want to prepare production release
+- `brunch build -P` when you are done with your work and want to prepare a production release.
 
 ## Overview
-	/development/			--> Development directory. Here your write your code.
-		/assets/				--> Static assets place
+	/development/			--> Development directory. Put all your code/assets there.
+		/assets/				--> Place for static assets
 			/images/
 			index.html
-		/scripts/			--> CoffeeScript files place
+		/scripts/			--> put CoffeScript files there
 			.empty
-		/styles/				--> SASS files place
+		/styles/				--> put SASS files there
 			appName.sass
 			
-	/build/					--> Preview directory. Will be build after `brunch w -s` command run. You have nothing to do here.
-		/scripts/			--> JavaScript files place
+	/build/					--> Preview directory. After you run `brunch w -s` compiled fiels will go there.
+		/scripts/			--> compiled JS
 			app.js
 			app.js.map
 			vendor.js
 			vendor.js.map
-		/styles/				--> CSS files place
+		/styles/				--> compiled CSS
 			app.css
 			app.css.map
 			vendor.css
 			vendor.css.map
-		/images/				--> Images place
+		/images/				--> images
 		index.html
 			
-	/release/				--> Builded with `brunch build -P` command. Contains production release files.
-		/scripts/			--> Minified JavaScript files place
+	/release/				--> Run `brunch build -P` to compile stuff for production release. 
+		/scripts/			--> Minified JavaScript go there
 			app.js
 			vendor.js
-		/styles/				--> Minified CSS files place
+		/styles/				--> Minified CSS go there
 			app.css
 			vendor.css
 		/images/
